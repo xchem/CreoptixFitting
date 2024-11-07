@@ -1,0 +1,1 @@
+This GitHub is designed to fit Grating-Coupled Interferometry (GCI) data from Creoptix WAVEsystem.
