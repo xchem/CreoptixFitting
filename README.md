@@ -19,14 +19,57 @@ If higher versions of JAX, JAXlib, and numpyro are installed, we need to check w
 
 ## Running test
 
-Setting up the main directory
+1. Setting up the main directory
     
     DIR='/home/vla/python'
 
-Install the packages and download the GitHub repository:
+2. Install the packages and download the GitHub repository:
     
     git clone 'https://github.com/vanngocthuyla/gci.git'
 
+3. Global Fitting for GCI Experiment
+
+Assuming `DIR` is your working directory, you can perform global fitting for one set of GCI experiments, including the subtracted datasets (e.g., FC2-1, FC3-1, and FC4-1) from cycle 13, by running the following commands:  
+
+```bash
+
+python $DIR/scripts/run_fitting_GCI.py \
+    --out_dir $DIR/example/output/13_Y \
+    --global_fitting --fitting_subtract --return_y_offset \
+    --init_niters 1000 --init_nburn 200 \
+    --niters 5000 --nburn 2000 --nchain 4 --random_key 0 \
+    --analyte_file $DIR/example/input/ZIKV_Subtraction.csv \
+    --analyte_keys_included "Fc=2-1-13_Y Fc=3-1-13_Y Fc=4-1-13_Y" \
+    --analyte_concentration_uM 10.0 \
+    --calibration_file $DIR/example/input/ZIKV_DMSO.csv \
+    --calibration_keys_included "Fc=2-11_Y Fc=3-11_Y Fc=4-11_Y" \
+    --end_dissociation 10.0
+```
+
+**Arguments for `run_fitting_GCI.py`**:  
+
+- **`--out_dir`**: Specifies the directory where the results will be saved.  
+- **`--global_fitting`**: If set to `True`, performs global fitting for subtracted FCs. If `False`, fits each subtracted FC separately.  
+- **`--fitting_complex`**: If set to `True`, fits a complex model. Otherwise, fits a simple model.  
+- **`--fitting_subtract`**: If set to `True`, the provided data is subtracted (e.g., `Fc=2-1-13`). If `False`, the provided data is raw (e.g., `Fc=2-13`).  
+- **`--return_y_offset`**: If set to `True`, estimates the `y_offset`.  
+- **`--init_niters`, `--init_nburn`, `--niters`, `--nburn`, `--nchain`**:  
+  Define the number of MCMC samples and burn-in steps:  
+  * `--init_niters`: Initial MCMC samples for tuning.  
+  * `--init_nburn`: Burn-in samples during initial tuning.  
+  * `--niters`: Total number of MCMC samples collected.  
+  * `--nburn`: Burn-in samples during collection.  
+  * `--nchain`: Number of chains for Bayesian regression.  
+- **`--random_key`**: Sets the random key for Bayesian regression.  
+- **`--analyte_file`**: Specifies the input data file.  
+- **`--analyte_keys_included`**: Specifies the columns of analyzed data.  
+- **`--analyte_keys_included_FC1`**: Required if `--fitting_subtract=False`.  
+- **`--analyte_concentration_uM`**: Specifies the analyte concentration in µM.  
+- **`--calibration_file`**: Specifies the DMSO calibration file.  
+- **`--calibration_keys_included`**: Specifies the columns for DMSO data.  
+- **`--end_dissociation`**: Defines the end time point for dissociation.  
+
+Alternatively, you can adjust the script `/scripts/submit_fitting_GCI.py` to submit the fitting jobs directly.  
 
 ## SLURM job submission
 
