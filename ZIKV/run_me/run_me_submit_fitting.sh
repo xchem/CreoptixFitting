@@ -8,21 +8,21 @@ DIR=$(<$FILE)
 export SCRIPT='/scripts/submit_fitting_GCI.py'
 export RUNNING_SCRIPT='/scripts/run_fitting_GCI.py'
 
-export NAME='ASAP-0020915_1'
+export NAME='ASAP-0020915_2'
 export OUT_DIR='/ZIKV'
 
 export INCLUDE_GLOBAL_FITTING=true  # Change to false to exclude
 export FITTING_COMPLEX=false        # Change to false to exclude
-export FITTING_SUBTRACT=false       # Change to false to exclude
+export FITTING_SUBTRACT=false      # Change to false to exclude
 export INCLUDE_PROTEIN_DECAY=false  # Change to false to exclude
 export INCLUDE_Y_OFFSET=true        # Change to false to exclude
 export INCLUDE_NOISE=false          # Change to false to exclude
 
-export ANALYTE_FILE="/input/ZIKV_20241112/${NAME}.csv"
+export ANALYTE_FILE="/input/ZIKV/ZIKV_${NAME}.csv"
 export ANALYTE_KEYS='2 3 4'
-export EXCLUDE_KEYS='23'
+export EXCLUDE_KEYS=''
 export CONC='10'
-export DMSO_FILE="/input/ZIKV_20241112/DMSO_4.csv"
+export DMSO_FILE="/input/ZIKV/ZIKV_DMSO_2nd.csv"
 export DMSO_KEYS='2-11 3-11 4-11'
 export END_T=10
 
