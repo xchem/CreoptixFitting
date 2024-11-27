@@ -48,6 +48,12 @@ To submit a job for the example dataset, follow these steps:
    Run the following command to submit the job:  
 
    ```bash  
-   bash run_me_submit_fitting_subtract.sh  
+   bash run_me_submit_fitting_subtract.sh
    ```
+4. **Job Automation and Output Details**
 
+   The code automatically detects datasets from different cycles in the input file `ZIKV.csv` and submits multiple jobs to the server. Each job is named according to its corresponding cycle number.
+
+   Output Information:
+- All submission details are stored in .job and .log files located in the defined output directory.
+- The results of each experiment fitting are saved in subfolders named after their respective cycle numbers.
