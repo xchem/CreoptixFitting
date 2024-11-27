@@ -7,7 +7,7 @@ DIR=$(<$FILE)
 
 export SCRIPT='/scripts/submit_fitting_GCI.py'
 export RUNNING_SCRIPT='/scripts/run_fitting_GCI.py'
-export OUTPUT_DIR='/example/output'
+export OUT_DIR='/example/output'
 
 export INCLUDE_GLOBAL_FITTING=true  # Change to false to exclude
 export FITTING_COMPLEX=false        # Change to false to exclude
@@ -30,6 +30,7 @@ export NITERS=5000
 export NBURNS=2000
 
 # Check if the output directory exists; if not, create it
+OUTPUT_DIR="$DIR$OUT_DIR"
 
 if [ ! -d "$OUTPUT_DIR" ]; then
     mkdir -p "$OUTPUT_DIR"  # Create the directory, including parent directories if needed
