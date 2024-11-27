@@ -22,7 +22,7 @@ If higher versions of JAX, JAXlib, and numpyro are installed, we need to check w
 1. Setting up the main directory
 
 ```bash
-    DIR='/home/vla/python'
+    DIR='/home/vla/python/gci'
 ```
 
 2. Install the packages and download the GitHub repository:
@@ -37,6 +37,7 @@ Assuming `DIR` is your working directory, you can perform global fitting for one
 
 ```bash
 
+mkdir $DIR/example/output
 python $DIR/scripts/run_fitting_GCI.py \
     --out_dir $DIR/example/output/13_Y \
     --global_fitting --fitting_subtract --return_y_offset \
