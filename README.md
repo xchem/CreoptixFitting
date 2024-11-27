@@ -1,8 +1,8 @@
-## Introduction
+# Introduction
 
 This GitHub is designed to fit Grating-Coupled Interferometry (GCI) data from Creoptix WAVEsystem.
 
-## Set up the running environment
+# Set up the running environment
 
 To run the Bayesian regression, we need some python packages. 
 
@@ -17,7 +17,7 @@ If higher versions of JAX, JAXlib, and numpyro are installed, we need to check w
     import jax
     jax.config.update("jax_enable_x64", True)
 
-## Running test
+# Running test
 
 1. Setting up the main directory
 
@@ -74,14 +74,14 @@ python $DIR/scripts/run_fitting_GCI.py \
 - **`--calibration_keys_included`**: Specifies the columns for DMSO data.  
 - **`--end_dissociation`**: Defines the end time point for dissociation.  
 
-Alternatively, you can adjust the script `/scripts/submit_fitting_GCI.py` to submit the fitting jobs directly.  
+Alternatively, you can adjust the script `/scripts/submit_fitting_GCI.py` to submit SLURM jobs.  
 
-## SLURM job submission
+# SLURM job submission
 
-### SLURM Job Information  
+## SLURM Job Information  
 More details about SLURM jobs can be found via [this link](https://slurm.schedmd.com/overview.html).  
 
-### Submitting a Job for the Example Dataset
+## Submitting a Job for the Example Dataset
 
 To submit a job for the example dataset, follow these steps:  
 
