@@ -7,22 +7,20 @@ DIR=$(<$FILE)
 
 export SCRIPT='/scripts/submit_fitting_GCI.py'
 export RUNNING_SCRIPT='/scripts/run_fitting_GCI.py'
-
-export NAME='ASAP-0020915_2'
-export OUT_DIR='/ZIKV'
+export OUTPUT_DIR='/example/output'
 
 export INCLUDE_GLOBAL_FITTING=true  # Change to false to exclude
 export FITTING_COMPLEX=false        # Change to false to exclude
-export FITTING_SUBTRACT=false      # Change to false to exclude
+export FITTING_SUBTRACT=true        # Change to false to exclude
 export INCLUDE_PROTEIN_DECAY=false  # Change to false to exclude
 export INCLUDE_Y_OFFSET=true        # Change to false to exclude
 export INCLUDE_NOISE=false          # Change to false to exclude
 
-export ANALYTE_FILE="/input/ZIKV/ZIKV_${NAME}.csv"
+export ANALYTE_FILE="/example/input/ZIKV_ASAP-0020915_2_Subtraction.csv"
 export ANALYTE_KEYS='2 3 4'
 export EXCLUDE_KEYS=''
 export CONC='10'
-export DMSO_FILE="/input/ZIKV/ZIKV_DMSO_2nd.csv"
+export DMSO_FILE="/example/input/ZIKV_DMSO_2nd.csv"
 export DMSO_KEYS='2-11 3-11 4-11'
 export END_T=10
 
@@ -32,7 +30,6 @@ export NITERS=5000
 export NBURNS=2000
 
 # Check if the output directory exists; if not, create it
-OUTPUT_DIR="$DIR$OUT_DIR/$NAME"
 
 if [ ! -d "$OUTPUT_DIR" ]; then
     mkdir -p "$OUTPUT_DIR"  # Create the directory, including parent directories if needed
