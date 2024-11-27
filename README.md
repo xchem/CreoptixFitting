@@ -25,13 +25,13 @@ If higher versions of JAX, JAXlib, and numpyro are installed, we need to check w
     DIR='/home/vla/python'
 ```
 
-3. Install the packages and download the GitHub repository:
+2. Install the packages and download the GitHub repository:
 
 ```bash
     git clone 'https://github.com/vanngocthuyla/gci.git'
 ```
 
-5. Global Fitting for GCI Experiment
+3. Global Fitting for GCI Experiment
 
 Assuming `DIR` is your working directory, you can perform global fitting for one set of GCI experiments, including the subtracted datasets (e.g., FC2-1, FC3-1, and FC4-1) from cycle 13, by running the following commands:  
 
