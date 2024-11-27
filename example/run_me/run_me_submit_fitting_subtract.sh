@@ -16,11 +16,11 @@ export INCLUDE_PROTEIN_DECAY=false  # Change to false to exclude
 export INCLUDE_Y_OFFSET=true        # Change to false to exclude
 export INCLUDE_NOISE=false          # Change to false to exclude
 
-export ANALYTE_FILE="/example/input/ZIKV_ASAP-0020915_2_Subtraction.csv"
+export ANALYTE_FILE="/example/input/ZIKV_Subtraction.csv"
 export ANALYTE_KEYS='2 3 4'
 export EXCLUDE_KEYS=''
 export CONC='10'
-export DMSO_FILE="/example/input/ZIKV_DMSO_2nd.csv"
+export DMSO_FILE="/example/input/ZIKV_DMSO.csv"
 export DMSO_KEYS='2-11 3-11 4-11'
 export END_T=10
 
