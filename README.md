@@ -20,7 +20,7 @@ If higher versions of JAX, JAXlib, and numpyro are installed, we need to check w
 
 # Running test
 
-Set your working directory inn `main_dir.txt`:
+Set your working directory in `main_dir.txt`:
     
     DIR='/home/vla/python'
 
