@@ -60,10 +60,10 @@ Output Information:
 
 - All submission details are stored in `.job` and `.log` files located in the defined output directory.  
 - Results for each experiment fitting are saved in subfolders named after their respective cycle numbers. Each subfolder includes:  
-  * Autocorrelation plots  
-  * Trace plots  
-  * MCMC samples saved as `traces.pickle`  
-  * Summarized MCMC samples saved as `Summary.csv`  
-  * MAP estimates saved as `map.pickle` and `map.csv`  
-  * A plot of the fitted sensorgram (gray curve) overlaid with observed dissociation segment data (red dots), along with the mean and standard deviations of parameter estimates from Bayesian regression  
+  * Autocorrelation plot
+  * Trace plot
+  * MCMC samples saved as `traces.pickle`
+  * Summarized MCMC samples saved as `Summary.csv`
+  * MAP estimates saved as `map.pickle` and `map.csv`
+  * A plot of the fitted sensorgram (gray curve) overlaid with observed dissociation segment data (red dots), along with the mean and standard deviations of parameter estimates from Bayesian regression
   * A diagnostic plot for derivative and integral curves
