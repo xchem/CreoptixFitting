@@ -55,7 +55,7 @@ def load_GratingCoupledInterferometrySensogram(file_name, skiprows=0, keys_inclu
         return (ts, mean_rs, std_rs)
 
 
-def _extract_GCI(init_data, args):
+def _extract_GCI(init_data, args, plotting=False):
     """
     Based on given input, returning the list of dictionary, each contains experimental information
     Return: 
@@ -78,33 +78,33 @@ def _extract_GCI(init_data, args):
                 print("Loading", experiment['keys_included_FC1'], "from", experiment['file_name'])
                 if 'keys_included_FC1' in experiment.keys():
                     ts, mean_rs, std_rs = load_GratingCoupledInterferometrySensogram(experiment['file_name'], 0, keys_included=experiment['keys_included_FC1'], 
-                                                                                     tlim=experiment['tlim'], plotting=False)
+                                                                                     tlim=experiment['tlim'], plotting=plotting)
                     experiment['Rt_FC1'] = mean_rs
                 
                 if 'calibration_keys_FC1' in experiment.keys():
                     ts, mean_rs, std_rs = load_GratingCoupledInterferometrySensogram(experiment['calibration_file_name'], 0, keys_included=experiment['calibration_keys_FC1'], 
-                                                                                     tlim=experiment['tlim'], plotting=False)
+                                                                                     tlim=experiment['tlim'], plotting=plotting)
                     mean_rs = [max(0, x) for x in mean_rs]
                     experiment['cL_scale_FC1'] = mean_rs/np.max(mean_rs)
 
             if args.fitting_subtract:
                 print('Loading sample response from', experiment['keys_included'], "from", experiment['file_name'])
                 ts, mean_rs, std_rs = load_GratingCoupledInterferometrySensogram(experiment['file_name'], 0, keys_included=experiment['keys_included'],
-                                                                                 tlim=experiment['tlim'], plotting=False)
+                                                                                 tlim=experiment['tlim'], plotting=plotting)
                 experiment['ts'] = ts
                 experiment['Rt'] = mean_rs
             else:
                 # FC2
                 print('Loading sample response from', experiment['keys_included'], "from", experiment['file_name'])
                 ts, mean_rs, std_rs = load_GratingCoupledInterferometrySensogram(experiment['file_name'], 0, keys_included=experiment['keys_included'],
-                                                                                 tlim=experiment['tlim'], plotting=False)
+                                                                                 tlim=experiment['tlim'], plotting=plotting)
                 experiment['ts'] = ts
                 experiment['Rt'] = mean_rs - experiment['Rt_FC1']
                 
             # c(t)
             print('Loading analyte concentration from', experiment['calibration_keys_included'], "from", experiment['calibration_file_name'])
             ts, mean_rs, std_rs = load_GratingCoupledInterferometrySensogram(experiment['calibration_file_name'], 0, keys_included=experiment['calibration_keys_included'],
-                                                                             tlim=experiment['tlim'], plotting=False)
+                                                                             tlim=experiment['tlim'], plotting=plotting)
             mean_rs = [max(0, x) for x in mean_rs]
             experiment['cL_scale'] = mean_rs/np.max(mean_rs)
 
