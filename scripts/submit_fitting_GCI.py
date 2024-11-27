@@ -59,6 +59,7 @@ try:
         _cycles = [(col.split('-')[2]) for col in filtered_header]
     else:
         _cycles = [(col.split('-')[1]) for col in filtered_header]
+        key_excluded.append(1)
 except:
     print("Please check the whether inputs from f{args.analyte_file} is subtracted sensorgram!")
     sys.exit()
@@ -146,7 +147,7 @@ if len(cycles)>0:
                 _key_included.append([f'Fc={ith_analyte}-{j}_Y'])
                 _calibration_keys_included.append([f'Fc={ith_calib}_Y'])
 
-        if args.fitting_complex:
+        if args.fitting_complex or (not args.fitting_subtract):
             _key_included_FC1 = f'Fc=1-{j}_Y'
         else:
             _key_included_FC1 = ''
