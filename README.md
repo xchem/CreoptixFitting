@@ -25,7 +25,7 @@ If higher versions of JAX, JAXlib, and numpyro are installed, we need to check w
     DIR='/home/vla/python/gci'
 ```
 
-2. Install the packages and download the GitHub repository:
+2. Install the packages and download the GitHub repository
 
 ```bash
     git clone 'https://github.com/vanngocthuyla/gci.git'
@@ -85,15 +85,15 @@ More details about SLURM jobs can be found via [this link](https://slurm.schedmd
 
 To submit a job for the example dataset, follow these steps:  
 
-1. **Edit the main directory**:  
+1. **Edit the main directory**
 
 Update the main directory in the file [main_dir.txt](https://github.com/vanngocthuyla/gci/blob/main/main_dir.txt).  
 
-2. **Adjust the partition and Conda environment**:  
+2. **Adjust the partition and Conda environment**
 
 Modify the partition and Conda environment settings in the script [submit_fitting_GCI.py](https://github.com/vanngocthuyla/gci/blob/0fe27b22cf34e38131c5ddf285bc964b197c5f9f/scripts/submit_fitting_GCI.py#L167C1-L176C22).
 
-3. **Submit the job**:  
+3. **Submit the job**
 
 Run the following command to submit the job:  
 
