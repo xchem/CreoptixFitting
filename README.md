@@ -87,7 +87,7 @@ To submit a job for the example dataset, follow these steps:
 
 1. **Edit the main directory**:  
 
-Update the main directory in the file [main_dir.txt (https://github.com/vanngocthuyla/gci/blob/main/main_dir.txt).  
+Update the main directory in the file [main_dir.txt] (https://github.com/vanngocthuyla/gci/blob/main/main_dir.txt).  
 
 2. **Adjust the partition and Conda environment**:  
 
