@@ -91,16 +91,16 @@ Update the main directory in the file [main_dir.txt](https://github.com/vanngoct
 
 2. **Adjust the partition and Conda environment**:  
 
-Modify the partition and Conda environment settings in the script [submit_fitting_GCI.py](https://github.com/vanngocthuyla/gci/blob/0fe27b22cf34e38131c5ddf285bc964b197c5f9f/scripts/submit_fitting_GCI.py#L167C1-L176C22).  
+Modify the partition and Conda environment settings in the script [submit_fitting_GCI.py](https://github.com/vanngocthuyla/gci/blob/0fe27b22cf34e38131c5ddf285bc964b197c5f9f/scripts/submit_fitting_GCI.py#L167C1-L176C22).
 
-4. **Submit the job**:  
+3. **Submit the job**:  
 
 Run the following command to submit the job:  
 
    ```bash  
-   bash run_me_submit_fitting_subtract.sh
+   bash $DIR/example/run_me/run_me_submit_fitting_subtract.sh
    ```
-5. **Job Automation and Output Details**
+4. **Job Automation and Output Details**
 
 The code automatically detects datasets from different cycles in the input file `ZIKV.csv` and submits multiple jobs to the server. Each job is named according to its corresponding cycle number.
 
