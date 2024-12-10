@@ -11,6 +11,7 @@ To run the Bayesian regression, we need some python packages.
   * numpyro v0.15.3
   * pickle-mixin >= v1.0.2
   * arviz >= 0.20.0
+  * uncertainties
 
 If higher versions of JAX, JAXlib, and numpyro are installed, we need to check whether x64 `jax.numpy` can be used by executing the following code without any errors:
 
