@@ -27,6 +27,7 @@ def parse_creoptix_files(
 	schema.set_index(schema_index_column, inplace=True)
 
 	rename_map = {}
+	multi_index_tuples = []
 
 	for y_col in y_columns:
 
@@ -44,9 +45,14 @@ def parse_creoptix_files(
 		# mrich.print(y_index, type_str, sample_str)
 
 		new_col_name = f"[{type_str}] {sample_str} ({fc_str} {y_index})"
+		
+		multi_index_tuples.append((type_str, sample_str, fc_str, y_index))
 
 		rename_map[y_col] = new_col_name
+		# rename_map[y_col] = new_col_tuple
 
-	data.rename(columns=rename_map, inplace=True)
+	# data.rename(columns=rename_map, inplace=True)
+
+	data.columns = pd.MultiIndex.from_tuples(multi_index_tuples, names=["type", "sample", "fc_str", "index"])
 
 	return data
