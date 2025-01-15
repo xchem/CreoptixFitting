@@ -1,0 +1,127 @@
+1	Startup	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+2	Startup	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+3	Startup	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+4	Startup	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+5	Startup	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+6	Startup	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+7	Startup	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+8	Startup	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+9	Startup	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+10	Startup	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+11	DMSO Cal.	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-B1 - running buffer + DMSO - 0.5 % - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Extra	True	True	Fast	False	True		0	0
+12	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+13	ControlSample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-C2 - control Aprotinin - 500 nM - 7000 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+14	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+15	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A1 - ASAP-0000570 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+16	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+17	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A2 - ASAP-0031692 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+18	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+19	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A3 - ASAP-0031633 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+20	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+21	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A4 - ASAP-0031492 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+22	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+23	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A5 - ASAP-0031502 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+24	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+25	ControlSample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-C2 - control Aprotinin - 500 nM - 7000 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+26	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+27	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A6 - ASAP-0031299 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+28	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+29	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A7 - ASAP-0031310 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+30	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+31	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A8 - ASAP-0031455 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+32	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+33	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A9 - ASAP-0031443 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+34	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+35	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A10 - ASAP-0031290 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+36	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+37	ControlSample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-C3 - control Aprotinin - 500 nM - 7000 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+38	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+39	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+40	DMSO Cal.	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-B1 - running buffer + DMSO - 0.5 % - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Extra	True	True	Fast	False	True		0	0
+41	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+42	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A11 - ASAP-0031293 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+43	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A12 - ASAP-0031364 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+44	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+45	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B1 - ASAP-0031456 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+46	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+47	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B2 - ASAP-0031129 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+48	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+49	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B3 - ASAP-0031237 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+50	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+51	ControlSample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-C1 - control Aprotinin - 500 nM - 7000 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+52	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+53	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B4 - ASAP-0031247 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+54	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+55	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B5 - ASAP-0031221 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+56	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+57	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B6 - ASAP-0031177 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+58	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+59	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B7 - ASAP-0031201 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+60	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+61	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B8 - ASAP-0030895 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+62	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+63	ControlSample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-C3 - control Aprotinin - 500 nM - 7000 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+64	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+65	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+66	DMSO Cal.	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-B1 - running buffer + DMSO - 0.5 % - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Extra	True	True	Fast	False	True		0	0
+67	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+68	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B9 - ASAP-0030783 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+69	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B10 - ASAP-0030082 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+70	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+71	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B11 - ASAP-0029841 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+72	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+73	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B12 - ASAP-0029790 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+74	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+75	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C1 - ASAP-0029785 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+76	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+77	ControlSample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-C3 - control Aprotinin - 500 nM - 7000 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+78	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+79	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C2 - ASAP-0029352 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+80	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+81	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C3 - ASAP-0028870 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+82	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A4 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+83	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C4 - ASAP-0028835 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+84	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A4 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+85	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C5 - ASAP-0028831 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+86	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A4 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+87	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C6 - ASAP-0028828 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+88	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A4 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+89	ControlSample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-C3 - control Aprotinin - 500 nM - 7000 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+90	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A4 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+91	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A4 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+92	DMSO Cal.	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-B1 - running buffer + DMSO - 0.5 % - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Extra	True	True	Fast	False	True		0	0
+93	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A4 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+94	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C7 - ASAP-0027983 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+95	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C8 - ASAP-0027962 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+96	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A4 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+97	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C9 - ASAP-0027839 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+98	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A4 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+99	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C10 - ASAP-0027823 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+100	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A4 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+101	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C11 - ASAP-0027756 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+102	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A4 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+103	ControlSample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-C3 - control Aprotinin - 500 nM - 7000 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+104	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A4 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+105	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C12 - ASAP-0027709 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+106	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A4 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+107	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-D1 - ASAP-0027698 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+108	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A4 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+109	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-D2 - ASAP-0027585 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+110	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A4 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+111	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-D3 - ASAP-0029625 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+112	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A5 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+113	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-D4 - ASAP-0030826 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+114	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A5 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+115	ControlSample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-C3 - control Aprotinin - 500 nM - 7000 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+116	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A5 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+117	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A5 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+118	DMSO Cal.	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-B1 - running buffer + DMSO - 0.5 % - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Extra	True	True	Fast	False	True		0	0
+119	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A5 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+120	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-D5 - ASAP-0029000 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+121	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-D6 - ASAP-0029814 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+122	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A5 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+123	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-D7 - ASAP-0029795 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+124	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A5 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+125	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-D8 - ASAP-0000570 - 100 μM - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+126	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A5 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+127	DMSO Cal.	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-B1 - running buffer + DMSO - 0.5 % - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Extra	True	True	Fast	False	True		0	0
