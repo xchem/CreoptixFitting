@@ -25,6 +25,8 @@ def show_outputs(
 ):
 
     out_dir = Path(out_dir)
+    assert out_dir.exists()
+
     subdirs = list(out_dir.glob(pattern))
 
     # mrich.print(subdirs)
