@@ -1,0 +1,16 @@
+{
+  "flags": [
+    "global_fitting",
+    "fitting_subtract",
+    "return_y_offset"
+  ],
+  "kwargs": {
+    "init_niters": 1000,
+    "init_nburn": 200,
+    "niters": 5000,
+    "nburn": 2000,
+    "nchain": 4,
+    "random_key": 0,
+    "end_dissociation": 30.0
+  }
+}

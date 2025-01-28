@@ -45,9 +45,14 @@ def lognormal_prior(name, stated_value, uncertainty):
     :rerurn: numpyro.Lognormal
     """
     m = stated_value
-    v = uncertainty ** 2
-    name = numpyro.sample(name, dist.LogNormal(loc=jnp.log(m / jnp.sqrt(1 + (v / (m ** 2)))),
-                                               scale=jnp.sqrt(jnp.log(1 + v / (m**2) )) ))
+    v = uncertainty**2
+    name = numpyro.sample(
+        name,
+        dist.LogNormal(
+            loc=jnp.log(m / jnp.sqrt(1 + (v / (m**2)))),
+            scale=jnp.sqrt(jnp.log(1 + v / (m**2))),
+        ),
+    )
 
     return name
 
@@ -60,7 +65,9 @@ def logsigma_guesses(response):
     ----------
     return range of log of sigma
     """
-    log_sigma_guess = jnp.log(response.std()) # jnp.log(response.std())
-    log_sigma_min = log_sigma_guess - 10 #log_sigma_min.at[0].set(log_sigma_guess - 10)
-    log_sigma_max = log_sigma_guess + 5 #log_sigma_max.at[0].set(log_sigma_guess + 5)
+    log_sigma_guess = jnp.log(response.std())  # jnp.log(response.std())
+    log_sigma_min = (
+        log_sigma_guess - 10
+    )  # log_sigma_min.at[0].set(log_sigma_guess - 10)
+    log_sigma_max = log_sigma_guess + 5  # log_sigma_max.at[0].set(log_sigma_guess + 5)
     return log_sigma_min, log_sigma_max

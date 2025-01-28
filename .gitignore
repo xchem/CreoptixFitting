@@ -1,2 +1,5 @@
 
 .DS_Store
+logs
+.ipynb_checkpoints
+__pycache__

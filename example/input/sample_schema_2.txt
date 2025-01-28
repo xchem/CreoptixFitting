@@ -1,0 +1,147 @@
+1	Startup	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+2	Startup	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+3	Startup	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+4	Startup	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+5	Startup	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+6	Startup	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+7	Startup	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+8	Startup	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+9	Startup	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+10	Startup	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+11	DMSO Cal.	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-B1 - running buffer + DMSO - 0.5 % - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Extra	True	True	Fast	False	True		0	0
+12	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+13	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A1 - ASAP-0029123-001 - 10 μM - 394 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+14	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A2 - ASAP-0029243-001 - 10 μM - 399 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+15	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A3 - ASAP-0029224-001 - 10 μM - 303 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+16	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A4 - ASAP-0029144-001 - 10 μM - 295 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+17	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A5 - ASAP-0029132-001 - 10 μM - 327 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+18	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+19	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A6 - ASAP-0029127-001 - 10 μM - 332 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+20	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A7 - ASAP-0029184-001 - 10 μM - 244 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+21	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A8 - ASAP-0029133-001 - 10 μM - 518 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+22	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A9 - ASAP-0029222-001 - 10 μM - 333 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+23	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A10 - ASAP-0029189-001 - 10 μM - 315 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+24	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+25	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+26	DMSO Cal.	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-B1 - running buffer + DMSO - 0.5 % - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Extra	True	True	Fast	False	True		0	0
+27	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A1 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+28	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A11 - ASAP-0029110-001 - 10 μM - 293 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+29	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-A12 - ASAP-0029142-001 - 10 μM - 410 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+30	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B1 - ASAP-0029119-001 - 10 μM - 634 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+31	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B2 - ASAP-0029177-001 - 10 μM - 342 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+32	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B3 - ASAP-0029161-001 - 10 μM - 409 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+33	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B4 - ASAP-0029170-001 - 10 μM - 301 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+34	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+35	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B5 - ASAP-0029106-001 - 10 μM - 341 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+36	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B6 - ASAP-0029171-001 - 10 μM - 345 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+37	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B7 - ASAP-0029255-001 - 10 μM - 228 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+38	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B8 - ASAP-0029134-001 - 10 μM - 307 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+39	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+40	DMSO Cal.	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-B1 - running buffer + DMSO - 0.5 % - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Extra	True	True	Fast	False	True		0	0
+41	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+42	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B9 - ASAP-0029208-001 - 10 μM - 293 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+43	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B10 - ASAP-0029128-001 - 10 μM - 347 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+44	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B11 - ASAP-0029220-001 - 10 μM - 324 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+45	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-B12 - ASAP-0029231-001 - 10 μM - 363 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+46	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C1 - ASAP-0029234-001 - 10 μM - 341 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+47	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C2 - ASAP-0029160-001 - 10 μM - 270 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+48	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+49	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C3 - ASAP-0029151-001 - 10 μM - 580 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+50	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C4 - ASAP-0029214-001 - 10 μM - 315 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+51	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C5 - ASAP-0029188-001 - 10 μM - 315 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+52	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C6 - ASAP-0029221-001 - 10 μM - 446 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+53	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+54	DMSO Cal.	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-B1 - running buffer + DMSO - 0.5 % - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Extra	True	True	Fast	False	True		0	0
+55	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+56	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C7 - ASAP-0029158-001 - 10 μM - 333 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+57	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C8 - ASAP-0029143-001 - 10 μM - 321 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+58	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C9 - ASAP-0029166-001 - 10 μM - 357 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+59	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C10 - ASAP-0029138-001 - 10 μM - 341 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+60	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C11 - ASAP-0029150-001 - 10 μM - 339 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+61	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-C12 - ASAP-0029167-001 - 10 μM - 470 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+62	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+63	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-D1 - ASAP-0029236-001 - 10 μM - 327 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+64	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-D2 - ASAP-0029262-001 - 10 μM - 255 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+65	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-D3 - ASAP-0029210-001 - 10 μM - 315 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+66	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-D4 - ASAP-0029191-001 - 10 μM - 329 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+67	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+68	DMSO Cal.	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-B1 - running buffer + DMSO - 0.5 % - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Extra	True	True	Fast	False	True		0	0
+69	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+70	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-D5 - ASAP-0029131-001 - 10 μM - 317 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+71	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-D6 - ASAP-0029190-001 - 10 μM - 314 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+72	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-D7 - ASAP-0029109-001 - 10 μM - 323 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+73	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-D8 - ASAP-0029253-001 - 10 μM - 327 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+74	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-D9 - ASAP-0029120-001 - 10 μM - 327 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+75	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-D10 - ASAP-0029116-001 - 10 μM - 315 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+76	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+77	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-D11 - ASAP-0029267-001 - 10 μM - 296 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+78	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-D12 - ASAP-0029250-001 - 10 μM - 371 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+79	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-E1 - ASAP-0029194-001 - 10 μM - 405 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+80	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-E2 - ASAP-0029248-001 - 10 μM - 445 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+81	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+82	DMSO Cal.	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-B1 - running buffer + DMSO - 0.5 % - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Extra	True	True	Fast	False	True		0	0
+83	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+84	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-E3 - ASAP-0029200-001 - 10 μM - 446 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+85	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-E4 - ASAP-0029213-001 - 10 μM - 327 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+86	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-E5 - ASAP-0029141-001 - 10 μM - 378 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+87	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-E6 - ASAP-0029259-001 - 10 μM - 368 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+88	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-E7 - ASAP-0029178-001 - 10 μM - 300 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+89	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-E8 - ASAP-0029168-001 - 10 μM - 314 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+90	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+91	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-E9 - ASAP-0029156-001 - 10 μM - 337 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+92	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-E10 - ASAP-0029264-001 - 10 μM - 358 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+93	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-E11 - ASAP-0029157-001 - 10 μM - 377 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+94	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-E12 - ASAP-0029095-001 - 10 μM - 327 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+95	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+96	DMSO Cal.	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-B1 - running buffer + DMSO - 0.5 % - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Extra	True	True	Fast	False	True		0	0
+97	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A2 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+98	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-F1 - ASAP-0029140-001 - 10 μM - 508 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+99	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-F2 - ASAP-0029139-001 - 10 μM - 422 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+100	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-F3 - ASAP-0029118-001 - 10 μM - 327 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+101	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-F4 - ASAP-0029175-001 - 10 μM - 612 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+102	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-F5 - ASAP-0029163-001 - 10 μM - 438 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+103	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-F6 - ASAP-0029187-001 - 10 μM - 301 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+104	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+105	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-F7 - ASAP-0029261-001 - 10 μM - 419 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+106	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-F8 - ASAP-0029147-001 - 10 μM - 499 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+107	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-F9 - ASAP-0029186-001 - 10 μM - 404 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+108	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-F10 - ASAP-0029254-001 - 10 μM - 488 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+109	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+110	DMSO Cal.	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-B1 - running buffer + DMSO - 0.5 % - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Extra	True	True	Fast	False	True		0	0
+111	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+112	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-F11 - ASAP-0029241-001 - 10 μM - 426 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+113	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-F12 - ASAP-0029162-001 - 10 μM - 465 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+114	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-G1 - ASAP-0029228-001 - 10 μM - 398 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+115	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-G2 - ASAP-0029169-001 - 10 μM - 410 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+116	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-G3 - ASAP-0029136-001 - 10 μM - 451 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+117	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-G4 - ASAP-0029256-001 - 10 μM - 349 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+118	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+119	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-G5 - ASAP-0029204-001 - 10 μM - 461 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+120	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-G6 - ASAP-0029180-001 - 10 μM - 438 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+121	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-G7 - ASAP-0029153-001 - 10 μM - 437 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+122	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-G8 - ASAP-0029130-001 - 10 μM - 319 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+123	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+124	DMSO Cal.	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-B1 - running buffer + DMSO - 0.5 % - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Extra	True	True	Fast	False	True		0	0
+125	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+126	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-G9 - ASAP-0029196-001 - 10 μM - 465 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+127	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-G10 - ASAP-0029242-001 - 10 μM - 440 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+128	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-G11 - ASAP-0029107-001 - 10 μM - 601 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+129	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-G12 - ASAP-0029260-001 - 10 μM - 314 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+130	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-H1 - ASAP-0029125-001 - 10 μM - 430 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+131	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-H2 - ASAP-0029113-001 - 10 μM - 700 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+132	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+133	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-H3 - ASAP-0029182-001 - 10 μM - 293 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+134	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-H4 - ASAP-0029263-001 - 10 μM - 429 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+135	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-H5 - ASAP-0029108-001 - 10 μM - 545 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+136	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-H6 - ASAP-0029227-001 - 10 μM - 369 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+137	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+138	DMSO Cal.	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-B1 - running buffer + DMSO - 0.5 % - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Extra	True	True	Fast	False	True		0	0
+139	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+140	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-H7 - ASAP-0029265-001 - 10 μM - 454 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+141	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-H8 - ASAP-0029176-001 - 10 μM - 449 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+142	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-H9 - ASAP-0029174-001 - 10 μM - 366 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+143	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-H10 - ASAP-0029232-001 - 10 μM - 598 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+144	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-H11 - ASAP-0029233-001 - 10 μM - 427 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+145	Sample	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	L-H12 - ASAP-0029239-001 - 10 μM - 524 Da	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+146	Blank	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-A3 - running buffer - n/a - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Regular	True	True	Fast	False	True		0	0
+147	DMSO Cal.	FC1=True,FC2=True,FC3=True,FC4=True	200	Port 1	R-B1 - running buffer + DMSO - 0.5 % - n/a	5	45	Executed	True	Pulsed	True	45	True	True	Extra	True	True	Fast	False	True		0	0

@@ -1,4 +1,3 @@
-
 import re
 import mrich
 from pathlib import Path
@@ -7,24 +6,24 @@ import pandas as pd
 from PIL import Image
 
 from ipywidgets import (
-        interactive,
-        # BoundedIntText,
-        Checkbox,
-        Dropdown,
-        interactive_output,
-        # HBox,
-        # GridBox,
-        # Layout,
-        VBox,
-    )
+    interactive,
+    # BoundedIntText,
+    Checkbox,
+    Dropdown,
+    interactive_output,
+    # HBox,
+    # GridBox,
+    # Layout,
+    VBox,
+)
 
-from .io import parse_summary_csv
+from .io import parse_summary_csv, parse_map_pickle
+
 
 def show_outputs(
-    out_dir: str | Path, 
-    pattern: str = "fit_sample_cycle????_*_calibration_cycle????"
+    out_dir: str | Path, pattern: str = "fit_sample_cycle????_*_calibration_cycle????"
 ):
-    
+
     out_dir = Path(out_dir)
     subdirs = list(out_dir.glob(pattern))
 
@@ -55,36 +54,41 @@ def show_outputs(
     dropdown_sample = Dropdown(
         options=sample_cycles,
         value=sample_cycles[0],
-        description='Sample:',
+        description="Sample:",
         disabled=False,
     )
 
     dropdown_calibration = Dropdown(
         options=calibration_cycles,
         value=calibration_cycles[0],
-        description='Calibration:',
+        description="Calibration:",
         disabled=False,
     )
 
-    checkbox_summary = Checkbox(description="Summary.csv", value=True)
+    checkbox_map = Checkbox(description="MAP", value=True)
+    checkbox_summary = Checkbox(description="MCMC statistics", value=False)
     checkbox_rty = Checkbox(description="Rt__Y.png", value=True)
     checkbox_drdty = Checkbox(description="dRdt__Y.png", value=False)
     checkbox_trace = Checkbox(description="Plot_trace.png", value=False)
     checkbox_autocorrelation = Checkbox(description="Autocorrelation.png", value=False)
 
-    ui = VBox([
-        dropdown_sample, 
-        dropdown_calibration,
-        checkbox_summary,
-        checkbox_rty,
-        checkbox_trace,
-        checkbox_drdty,
-        checkbox_autocorrelation,
-    ])
+    ui = VBox(
+        [
+            dropdown_sample,
+            dropdown_calibration,
+            checkbox_map,
+            checkbox_summary,
+            checkbox_rty,
+            checkbox_trace,
+            checkbox_drdty,
+            checkbox_autocorrelation,
+        ]
+    )
 
     def widget(
-        sample_cycle, 
+        sample_cycle,
         calibration_cycle,
+        show_map,
         show_summary,
         show_rty,
         show_drdty,
@@ -98,11 +102,16 @@ def show_outputs(
             mrich.error("No subdirectory found")
             return
 
-        mrich.var("Subdirectory",subdir.name)
+        mrich.var("Subdirectory", subdir.name)
+
+        if show_map:
+            mrich.h3("MAP (map.pickle)")
+            df = parse_map_pickle(subdir / "map.pickle")
+            display(df)
 
         # summary CSV
         if show_summary:
-            mrich.h3("Summary.csv")
+            mrich.h3("MCMC statistics (Summary.csv)")
             summary_df = parse_summary_csv(subdir / "Summary.csv")
             display(summary_df)
 
@@ -128,19 +137,18 @@ def show_outputs(
         #     img = Image.open(str(png_file.resolve()))
         #     display(img)
 
-    
     out = interactive_output(
-            widget,
-            {
-                "sample_cycle": dropdown_sample,
-                "calibration_cycle": dropdown_calibration,
-                "show_summary":checkbox_summary,
-                "show_rty":checkbox_rty,
-                "show_trace":checkbox_trace,
-                "show_drdty":checkbox_drdty,
-                "show_autocorrelation":checkbox_autocorrelation,
-            },
-        )
+        widget,
+        {
+            "sample_cycle": dropdown_sample,
+            "calibration_cycle": dropdown_calibration,
+            "show_map": checkbox_map,
+            "show_summary": checkbox_summary,
+            "show_rty": checkbox_rty,
+            "show_trace": checkbox_trace,
+            "show_drdty": checkbox_drdty,
+            "show_autocorrelation": checkbox_autocorrelation,
+        },
+    )
 
     display(ui, out)
-    

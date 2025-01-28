@@ -1,9 +1,10 @@
-
 import itertools
 from pathlib import Path
 import pandas as pd
 import mrich
 from mrich import print
+import pickle
+
 
 def parse_creoptix_files(
     data_file: str | Path,
@@ -11,7 +12,7 @@ def parse_creoptix_files(
     schema_index_column: int = 0,
     schema_type_column: int = 1,
     schema_sample_column: int = 5,
-    debug: bool = True,
+    debug: bool = False,
 ):
 
     # read the data file
@@ -61,7 +62,7 @@ def parse_creoptix_files(
     )
 
     # print some information
-    for type in data.columns.get_level_values('type').unique():
+    for type in data.columns.get_level_values("type").unique():
         mrich.var(f"#cycles {type}", len(set(a[1] for a in data[type].columns)))
 
     if "Sample" not in data:
@@ -73,13 +74,14 @@ def parse_creoptix_files(
 
     return data
 
+
 def write_all_fitting_csvs(data: pd.DataFrame, out_dir: str):
 
     # output directory
     out_dir = Path(out_dir)
     mrich.writing(out_dir)
     out_dir.mkdir(exist_ok=True)
-    
+
     # split data by type
     try:
         samples = data["Sample"]
@@ -87,7 +89,7 @@ def write_all_fitting_csvs(data: pd.DataFrame, out_dir: str):
     except KeyError:
         mrich.print(data.columns)
         raise
-        
+
     # prep calibration variables
     calibration_names = set(a[0] for a in calibrations.columns)
     assert len(calibration_names) == 1, "Multiple calibration types"
@@ -95,35 +97,45 @@ def write_all_fitting_csvs(data: pd.DataFrame, out_dir: str):
     calibration_cycles = sorted(list(set(a[1] for a in calibrations.columns)))
 
     # write calibration files
-    for calibration_cycle in mrich.track(calibration_cycles, prefix="Writing calibration CSVs"):
+    for calibration_cycle in mrich.track(
+        calibration_cycles, prefix="Writing calibration CSVs"
+    ):
         file_name = f"calibration_cycle{calibration_cycle:04}.csv"
-        write_trace_csv(calibrations[calibration_name][calibration_cycle], out_dir / file_name)
+        write_trace_csv(
+            calibrations[calibration_name][calibration_cycle], out_dir / file_name
+        )
 
     # prep sample variables
     sample_names = set(a[0] for a in samples.columns)
     sample_cycles = set(a[1] for a in samples.columns)
 
-    sample_pairs = set((a[0],a[1]) for a in samples.columns)
+    sample_pairs = set((a[0], a[1]) for a in samples.columns)
 
     # write calibration files
-    for sample_name, sample_cycle in mrich.track(sample_pairs, prefix="Writing sample CSVs"):
+    for sample_name, sample_cycle in mrich.track(
+        sample_pairs, prefix="Writing sample CSVs"
+    ):
         sample_code = "_".join(parse_sample_name(sample_name))
         file_name = f"sample_cycle{sample_cycle:04}_{sample_code}.csv"
         write_trace_csv(samples[sample_name][sample_cycle], out_dir / file_name)
 
+
 def write_trace_csv(df: pd.DataFrame, out_file: Path):
 
-    out_data = { 
-        "2-1_X":[], "2-1_Y":[], 
-        "3-1_X":[], "3-1_Y":[], 
-        "4-1_X":[], "4-1_Y":[], 
+    out_data = {
+        "2-1_X": [],
+        "2-1_Y": [],
+        "3-1_X": [],
+        "3-1_Y": [],
+        "4-1_X": [],
+        "4-1_Y": [],
     }
 
     assert len(df.columns) == 3
 
     for time, row in df.iterrows():
 
-        for k,v in row.to_dict().items():
+        for k, v in row.to_dict().items():
             out_data[f"{k}_X"].append(time)
             out_data[f"{k}_Y"].append(v)
 
@@ -131,6 +143,7 @@ def write_trace_csv(df: pd.DataFrame, out_file: Path):
 
     mrich.writing(out_file)
     out_df.to_csv(out_file, index=False)
+
 
 def parse_sample_name(name):
 
@@ -146,16 +159,18 @@ def parse_sample_name(name):
 
     return location, sample, concentration
 
+
 def clear_csvs(directory):
 
     # Define the directory and pattern
     directory = Path(directory)
-    pattern = '*.csv'  # Example pattern to match all .txt files
+    pattern = "*.csv"  # Example pattern to match all .txt files
 
     # Iterate through files matching the pattern and delete them
     for file in directory.glob(pattern):
         if file.is_file():  # Ensure it's a file (not a directory)
             file.unlink()
+
 
 def get_file_pairs(directory):
 
@@ -166,13 +181,15 @@ def get_file_pairs(directory):
 
     return itertools.product(sample_files, calibration_files)
 
+
 def parse_summary_csv(file: str | Path):
 
     summary_df = pd.read_csv(file)
-    summary_df.rename(columns={summary_df.columns[0]:"value"}, inplace=True)
+    summary_df.rename(columns={summary_df.columns[0]: "value"}, inplace=True)
     summary_df.set_index("value", inplace=True)
 
     return summary_df
+
 
 def parse_all_summary_csvs(out_dir: str | Path):
 
@@ -185,19 +202,77 @@ def parse_all_summary_csvs(out_dir: str | Path):
 
         subdir_name = file.parent.name
 
-        sample_name = subdir_name.removeprefix("fit_sample_cycle")[5:-22]  # 0085_L-E4_ASAP-0029213-001_10uM
+        sample_name = subdir_name.removeprefix("fit_sample_cycle")[
+            5:-22
+        ]  # 0085_L-E4_ASAP-0029213-001_10uM
         calibration_cycle = int(subdir_name[-4:])
 
         location, sample, concentration = sample_name.split("_")
 
         for col in df.columns:
-            series = df[col]        
-            all_data[location, sample, concentration, calibration_cycle, col] = series.values
+            series = df[col]
+            all_data[location, sample, concentration, calibration_cycle, col] = (
+                series.values
+            )
 
         # break
 
     all_df = pd.DataFrame(all_data)
-    all_df.columns.names = ['Location','Sample', 'Concentration', "Calibration Cycle", "Column"]
+    all_df.columns.names = [
+        "Location",
+        "Sample",
+        "Concentration",
+        "Calibration Cycle",
+        "Column",
+    ]
+    all_df.index = df.index
+
+    return all_df.T
+
+
+def parse_map_pickle(file):
+    data = pickle.load(open(file, "rb"))
+    df = pd.DataFrame([data]).T
+    df.columns = [file.parent.name]
+    return df
+
+
+def parse_all_map_pickles(out_dir):
+
+    out_dir = Path(out_dir)
+
+    all_data = {}
+
+    for file in out_dir.glob("*/map.pickle"):
+        df = parse_map_pickle(file)
+
+        subdir_name = file.parent.name
+
+        sample_name = subdir_name.removeprefix("fit_sample_cycle")[
+            :-22
+        ]  # 0085_L-E4_ASAP-0029213-001_10uM
+        sample_cycle = int(sample_name[:4])
+        sample_name = sample_name[5:]
+        calibration_cycle = int(subdir_name[-4:])
+
+        location, sample, concentration = sample_name.split("_")
+
+        series = df[df.columns[0]]
+        all_data[location, sample, concentration, sample_cycle, calibration_cycle] = (
+            series.values
+        )
+
+        # break
+
+    all_df = pd.DataFrame(all_data)
+
+    all_df.columns.names = [
+        "Location",
+        "Sample",
+        "Concentration",
+        "Sample Cycle",
+        "Calibration Cycle",
+    ]
     all_df.index = df.index
 
     return all_df.T

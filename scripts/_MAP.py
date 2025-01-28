@@ -21,8 +21,10 @@ def _log_prior_sigma(mcmc_trace, data, sigma_name, nsamples):
 
     """
     log_sigma_min, log_sigma_max = logsigma_guesses(data)
-    f_log_prior_sigma = vmap(lambda sigma: _uniform_pdf(sigma, log_sigma_min, log_sigma_max))
-    param_trace = mcmc_trace[sigma_name][: nsamples]
+    f_log_prior_sigma = vmap(
+        lambda sigma: _uniform_pdf(sigma, log_sigma_min, log_sigma_max)
+    )
+    param_trace = mcmc_trace[sigma_name][:nsamples]
     return jnp.log(f_log_prior_sigma(param_trace))
 
 
@@ -39,7 +41,9 @@ def _log_likelihood_normal(response_actual, response_model, sigma):
     Return:
         Sum of log PDF of response_actual given normal distribution N(response_model, sigma^2)
     """
-    return jnp.nansum(dist.Normal(0, 1).log_prob((response_model - response_actual)/sigma))
+    return jnp.nansum(
+        dist.Normal(0, 1).log_prob((response_model - response_actual) / sigma)
+    )
 
 
 def _uniform_pdf(x, lower, upper):
@@ -58,7 +62,7 @@ def _uniform_pdf(x, lower, upper):
     # assert upper > lower, "upper must be greater than lower"
     # if (x < lower) or (x > upper):
     #     return 0.
-    return 1./(upper - lower)
+    return 1.0 / (upper - lower)
 
 
 def _gaussian_pdf(x, mean, std):
@@ -74,7 +78,7 @@ def _gaussian_pdf(x, mean, std):
     Return:
         PDF of x values given gaussian distribution N(loc, scale)
     """
-    return jnp.exp(dist.Normal(loc=0, scale=1).log_prob((x-mean)/std))
+    return jnp.exp(dist.Normal(loc=0, scale=1).log_prob((x - mean) / std))
 
 
 def _lognormal_pdf(x, stated_center, uncertainty):
@@ -98,7 +102,12 @@ def _lognormal_pdf(x, stated_center, uncertainty):
     m = stated_center
     v = uncertainty**2
 
-    mu = np.log(m / jnp.sqrt(1 + (v / (m ** 2))))
+    mu = np.log(m / jnp.sqrt(1 + (v / (m**2))))
     sigma_2 = jnp.log(1 + (v / (m**2)))
 
-    return 1 / x / jnp.sqrt(2 * jnp.pi * sigma_2) * jnp.exp(-0.5 / sigma_2 * (jnp.log(x) - mu)**2)
+    return (
+        1
+        / x
+        / jnp.sqrt(2 * jnp.pi * sigma_2)
+        * jnp.exp(-0.5 / sigma_2 * (jnp.log(x) - mu) ** 2)
+    )
