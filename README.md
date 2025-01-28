@@ -1,6 +1,6 @@
 # CreoptixFitting
 
-Original documentation in [gciscripts/README.md]
+Original documentation in [gciscripts/README.md](gciscripts/README.md)
 
 ## Usage at DLS
 
