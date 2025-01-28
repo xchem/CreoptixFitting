@@ -54,6 +54,12 @@ python -m gcifit.fit --help
 python -m gcifit.fit sample_traces_3.txt sample_schema_3.txt config.json example_output
 ```
 
+#### 7. Track running jobs:
+
+```
+rq
+```
+
 ### Viewing outputs in a notebook
 
 From a DLS linux machine terminal (or NoMachine / ssh):
