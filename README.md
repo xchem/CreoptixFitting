@@ -1,118 +1,81 @@
-# Introduction
+# CreoptixFitting
 
-This GitHub is designed to fit Grating-Coupled Interferometry (GCI) data from Creoptix WAVEsystem.
+Original documentation in [gciscripts/README.md]
 
-# Set up the running environment
+## Usage at DLS
 
-To run the Bayesian regression, we need some python packages. 
+### Submitting jobs
 
-  * jax v0.4.33
-  * jaxlib v0.4.33
-  * numpyro v0.15.3
-  * pickle-mixin >= v1.0.2
-  * arviz >= 0.20.0
-  * uncertainties
+From a DLS linux machine terminal (or NoMachine / ssh):
 
-If higher versions of JAX, JAXlib, and numpyro are installed, we need to check whether x64 `jax.numpy` can be used by executing the following code without any errors:
+1. Load the python environment:
 
-    import jax
-    jax.config.update("jax_enable_x64", True)
-
-# Running test
-
-1. Setting up the main directory
-
-```bash
-    DIR='/home/vla/python/gci'
+```
+source /dls/science/groups/i04-1/software/max/load_py310.sh
 ```
 
-2. Install the packages and download the GitHub repository
+1. Navigate/create a working directory
 
-```bash
-    git clone 'https://github.com/vanngocthuyla/gci.git'
+e.g.
+
+```
+mkdir creoptix_test
+cd creoptix_test
+pwd
 ```
 
-3. Global Fitting for GCI Experiment
+1. Place your input files inside:
 
-Assuming `DIR` is your working directory, you can perform global fitting for one set of GCI experiments, including the subtracted datasets (e.g., FC2-1, FC3-1, and FC4-1) from cycle 13, by running the following commands:  
+- *trace file*, a text file exported from Creoptix containing response time-series for all channels
+- *schema file*, a text file containing the copied and pasted table describing the channels from Creoptix
 
-```bash
+To use the example data:
 
-mkdir $DIR/example/output
-python $DIR/scripts/run_fitting_GCI.py \
-    --out_dir $DIR/example/output/13_Y \
-    --global_fitting --fitting_subtract --return_y_offset \
-    --init_niters 1000 --init_nburn 200 \
-    --niters 5000 --nburn 2000 --nchain 4 --random_key 0 \
-    --analyte_file $DIR/example/input/ZIKV_Subtraction.csv \
-    --analyte_keys_included "Fc=2-1-13_Y Fc=3-1-13_Y Fc=4-1-13_Y" \
-    --analyte_concentration_uM 10.0 \
-    --calibration_file $DIR/example/input/ZIKV_DMSO.csv \
-    --calibration_keys_included "Fc=2-11_Y Fc=3-11_Y Fc=4-11_Y" \
-    --end_dissociation 10.0
+```
+cp -v $CREOPTIX/example/input/sample_*_3.txt .
 ```
 
-**Arguments for `run_fitting_GCI.py`**:  
+1. Copy and edit your config file:
 
-- **`--out_dir`**: Specifies the directory where the results will be saved.  
-- **`--global_fitting`**: If set to `True`, performs global fitting for subtracted FCs. If `False`, fits each subtracted FC separately.  
-- **`--fitting_complex`**: If set to `True`, fits a complex model. Otherwise, fits a simple model.  
-- **`--fitting_subtract`**: If set to `True`, the provided data is subtracted (e.g., `Fc=2-1-13`). If `False`, the provided data is raw (e.g., `Fc=2-13`).  
-- **`--return_y_offset`**: If set to `True`, estimates the `y_offset`.  
-- **`--init_niters`, `--init_nburn`, `--niters`, `--nburn`, `--nchain`**:  
-  Define the number of MCMC samples and burn-in steps:  
-  * `--init_niters`: Initial MCMC samples for tuning.  
-  * `--init_nburn`: Burn-in samples during initial tuning.  
-  * `--niters`: Total number of MCMC samples collected.  
-  * `--nburn`: Burn-in samples during collection.  
-  * `--nchain`: Number of chains for Bayesian regression.  
-- **`--random_key`**: Sets the random key for Bayesian regression.  
-- **`--analyte_file`**: Specifies the input data file.  
-- **`--analyte_keys_included`**: Specifies the columns of analyzed data.  
-- **`--analyte_keys_included_FC1`**: Required if `--fitting_subtract=False`.  
-- **`--analyte_concentration_uM`**: Specifies the analyte concentration in µM.  
-- **`--calibration_file`**: Specifies the DMSO calibration file.  
-- **`--calibration_keys_included`**: Specifies the columns for DMSO data.  
-- **`--end_dissociation`**: Defines the end time point for dissociation.  
+```
+cp -v $CREOPTIX/config.json .
+nano config.json
+```
 
-Alternatively, you can adjust the script `/scripts/submit_fitting_GCI.py` to submit SLURM jobs.  
+1. See the CLI help:
 
-# SLURM job submission
+```
+python -m gcifit.fit --help
+```
 
-## SLURM Job Information  
-More details about SLURM jobs can be found via [this link](https://slurm.schedmd.com/overview.html).  
+1. Submit the fitting
 
-## Submitting a Job for the Example Dataset
+```
+python -m gcifit.fit sample_traces_3.txt sample_schema_3.txt config.json example_output
+```
 
-To submit a job for the example dataset, follow these steps:  
+### Viewing outputs in a notebook
 
-1. **Edit the main directory**
+From a DLS linux machine terminal (or NoMachine / ssh):
 
-Update the main directory in the file [main_dir.txt](https://github.com/vanngocthuyla/gci/blob/main/main_dir.txt).  
+1. Load the python environment:
 
-2. **Adjust the partition and Conda environment**
+```
+source /dls/science/groups/i04-1/software/max/load_py310.sh
+```
 
-Modify the partition and Conda environment settings in the script [submit_fitting_GCI.py](https://github.com/vanngocthuyla/gci/blob/0fe27b22cf34e38131c5ddf285bc964b197c5f9f/scripts/submit_fitting_GCI.py#L167C1-L176C22).
+1. Change to the CreoptixFitting directory:
 
-3. **Submit the job**
+```
+cd $CREOPTIX
+```
 
-Run the following command to submit the job:  
+1. Launch a jupyter notebook
 
-   ```bash  
-   bash $DIR/example/run_me/run_me_submit_fitting_subtract.sh
-   ```
-4. **Job Automation and Output Details**
+```
+jupyter lab
+```
 
-The code automatically detects datasets from different cycles in the input file `ZIKV.csv` and submits multiple jobs to the server. Each job is named according to its corresponding cycle number.
+1. Open the address shown in the terminal in a browser
 
-Output Information:
-
-- All submission details are stored in `.job` and `.log` files located in the defined output directory.  
-- Results for each experiment fitting are saved in subfolders named after their respective cycle numbers. Each subfolder includes:  
-  * Autocorrelation plot
-  * Trace plot
-  * MCMC samples saved as `traces.pickle`
-  * Summarized MCMC samples saved as `Summary.csv`
-  * MAP estimates saved as `map.pickle` and `map.csv`
-  * A plot of the fitted sensorgram (gray curve) overlaid with observed dissociation segment data (red dots), along with the mean and standard deviations of parameter estimates from Bayesian regression
-  * A diagnostic plot for derivative and integral curves
+1. Try out the example notebook: `show_outputs.ipynb`

@@ -79,7 +79,7 @@ def write_all_fitting_csvs(data: pd.DataFrame, out_dir: str):
 
     # output directory
     out_dir = Path(out_dir)
-    mrich.writing(out_dir)
+    # mrich.writing(out_dir)
     out_dir.mkdir(exist_ok=True)
 
     # split data by type
@@ -141,7 +141,7 @@ def write_trace_csv(df: pd.DataFrame, out_file: Path):
 
     out_df = pd.DataFrame(out_data)
 
-    mrich.writing(out_file)
+    # mrich.writing(out_file)
     out_df.to_csv(out_file, index=False)
 
 
