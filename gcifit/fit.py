@@ -95,8 +95,6 @@ def fit_all(
         if sleep:
             time.sleep(sleep)
 
-        break
-
     if job_ids:
         mrich.var("Job ID's", " ".join(str(i) for i in job_ids))
         mrich.success("Submitted", len(job_ids), "jobs")
